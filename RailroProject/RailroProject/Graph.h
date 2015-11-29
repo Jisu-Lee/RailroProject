@@ -1,5 +1,5 @@
 /*
-* The Graph class defines common behaviors and states of graphs
+* The Graph class defines common behaviors and states of graphs.
 */
 #include <vector>
 #include "Node.h"
