@@ -13,9 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    graphview.cpp \
+    stationnode.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    graphview.h \
+    stationnode.h
 
 FORMS    += mainwindow.ui
 

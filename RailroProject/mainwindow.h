@@ -2,7 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <QResizeEvent>
+#include "graphview.h"
 namespace Ui {
 class MainWindow;
 }
@@ -16,7 +17,10 @@ public:
     ~MainWindow();
 
 private:
-    Ui::MainWindow *ui;
+
+    void resizeEvent(QResizeEvent *) Q_DECL_OVERRIDE;
+    Ui::MainWindow* ui;
+    GraphView* m_graphView;
 
 };
 
