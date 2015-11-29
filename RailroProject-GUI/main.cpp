@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include <QApplication>
 
-#include "graphview.h"
+#include "../RailroProject/graphview.h"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);

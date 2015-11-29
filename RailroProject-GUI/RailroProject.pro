@@ -14,12 +14,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    graphview.cpp \
-    stationnode.cpp
+    ../RailroProject/graphview.cpp \
+    ../RailroProject/stationnode.cpp
 
 HEADERS  += mainwindow.h \
-    graphview.h \
-    stationnode.h
+    ../RailroProject/graphview.h \
+    ../RailroProject/stationnode.h
 
 FORMS    += mainwindow.ui
 

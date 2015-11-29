@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QResizeEvent>
-#include "graphview.h"
+#include "../RailroProject/graphview.h"
 namespace Ui {
 class MainWindow;
 }
